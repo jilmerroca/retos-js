@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>IMC Calc</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+
+<body>
+    <main class="w-[300px] bg-[#eeeeee] my-0 mx-auto mt-8 p-5 rounded-xl shadow-md">
+        <h1 id="title" class="text-3xl font-bold text-center mb-3">IMC Calc</h1>
+
+        <section class="flex flex-col gap-5">
+            <input type="text" id="inputMass" class="mytitle text-center rounded-xl p-1 text-xl font-bold" placeholder="Masa (kg)">
+            <input type="text" id="inputHeight" class="mytitle text-center rounded-xl p-1 text-xl font-bold" placeholder="Altura (cm)">
+
+            <button id="calcButton" class="button bg-blue-800 p-2 rounded-lg hover:bg-blue-900 duration-300 font-bold text-white">Calcular</button>
+
+            <p id="imcResult"></p>
+
+        </section>
+    </main>
+
+    <script src="./app.js"></script>
+</body>
+
+</html>
